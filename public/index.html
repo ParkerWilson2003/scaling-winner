@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Private Etsy shop analytics and workflow dashboard for a single seller.">
+  <title>StarNet Etsy Dashboard</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header>
+    <div class="brand">STARNET / ETSY</div>
+    <nav aria-label="Legal">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">PRIVATE SELLER TOOL</p>
+      <h1>StarNet Etsy Dashboard</h1>
+      <p>A locally operated dashboard for one Etsy seller to review shop performance, orders, listings, inventory, shipping information, fees, and estimated earnings.</p>
+      <div class="actions">
+        <a class="button" href="/api/etsy/connect">Connect Etsy</a>
+        <button id="test" type="button">Test connection</button>
+      </div>
+      <p id="status" class="status" aria-live="polite">Checking local connection...</p>
+    </section>
+    <section class="details">
+      <article><h2>Purpose</h2><p>Read-only shop analytics and owner-reviewed product workflows for the operator's own Etsy shop.</p></article>
+      <article><h2>Access</h2><p>The application requests only the Etsy permissions needed to read shop, listing, and transaction data.</p></article>
+      <article><h2>Data handling</h2><p>Credentials and retrieved shop data remain on the operator's local computer and are not sold or shared.</p></article>
+    </section>
+  </main>
+  <footer>Private application operated by the shop owner.</footer>
+  <script src="site.js"></script>
+</body>
+</html>

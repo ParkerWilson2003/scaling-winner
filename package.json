@@ -1,0 +1,13 @@
+{
+  "name": "starnet-etsy-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Private local Etsy shop analytics and OAuth helper for StarNet.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
