@@ -12,7 +12,7 @@ Private local Etsy shop analytics and OAuth helper. This project uses Etsy Open 
 - Capabilities: Read sales data; upload/edit listings can remain disabled for this read-only dashboard
 - OAuth scopes: `shops_r listings_r transactions_r`
 - Local URL: `http://127.0.0.1:8787`
-- Redirect URI: the exact deployed HTTPS callback ending in `/oauth/callback/`
+- Redirect URI: `https://parkerwilson2003.github.io/scaling-winner/oauth/callback/`
 
 ## Local setup
 
